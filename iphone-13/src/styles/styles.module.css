@@ -1,0 +1,251 @@
+/* NavStyles */
+.nav {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  z-index: 50;
+  justify-content: center;
+}
+.ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  cursor: pointer;
+}
+
+.ul li {
+  cursor: pointer;
+}
+.ul li:hover {
+  color: rgba(240, 248, 255, 0.582);
+  transition: 0.1s;
+}
+/* Conteiner1 */
+
+.cont1 {
+  position: sticky;
+  padding-top: 1px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #111111;
+  margin: auto;
+
+  z-index: 7;
+}
+
+.im0 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+  width: 95%;
+  margin-left: 2%;
+  border-bottom: 50px #111111 solid;
+  z-index: 6;
+  box-shadow: 6px 68px 58px -23px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 6px 68px 58px -23px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 6px 68px 58px -23px rgba(0, 0, 0, 1);
+}
+/* Contenedor */
+
+.container {
+  background-color: #111111;
+}
+.i {
+  color: aliceblue;
+  margin-right: 70%;
+}
+.imgp {
+  margin-top: 50px;
+  width: 95%;
+  z-index: 1;
+}
+.ul2 {
+  list-style-type: none;
+  display: flex;
+  margin-top: -50px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: 45%;
+  color: aliceblue;
+}
+.container ul button {
+  background-color: rgb(11, 112, 228);
+  border: none;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.imgi {
+  color: aliceblue;
+  width: 400px;
+  height: 650px;
+}
+
+/* IMAGEN 3 */
+.imgc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgba(240, 248, 255, 0);
+  width: 100%;
+  background-color: #111111;
+
+  position: relative;
+  height: 100vh;
+  z-index: 3;
+
+  margin-top: 2vh;
+}
+/* Container3 */
+.conteiner3 {
+  display: flex;
+  flex-direction: row;
+
+  color: aliceblue;
+  margin-top: -35em;
+  margin-bottom: 50%;
+  z-index: 1;
+}
+.texc {
+  background-color: black;
+  margin-left: 3%;
+  width: 60%;
+}
+.img4 {
+  width: 90%;
+  margin-left: 1%;
+}
+/* Container2 */
+
+.conteiner2 {
+  position: relative;
+  background-color: black;
+  color: aliceblue;
+  height: 180vh;
+  z-index: 3;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: -20vh;
+  border-bottom: 50px #111111 solid;
+}
+.conteiner21 {
+  padding-top: 200px;
+  margin-top: 20vh;
+  position: sticky;
+  top: 0%;
+}
+.titulo2 {
+  font-size: 60px;
+  margin: auto;
+
+  width: 80%;
+  margin-left: 10%;
+}
+
+.p2 {
+  font-size: 20px;
+  font-weight: bold;
+  width: 79%;
+  margin-left: 10%;
+}
+.h42 {
+  font-size: 25px;
+}
+.a2 {
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 20px;
+}
+.conteinerd3 {
+  position: sticky;
+  top: 20%;
+  z-index: 1;
+}
+
+/* Camera */
+.divcamera {
+  /* background-color: rgb(84, 86, 87); */
+  margin-top: 2%;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 0%;
+  height: 100em;
+  border-bottom: 50px #111111 solid;
+}
+.i5 {
+  width: 100%;
+  height: 90%;
+  border-bottom: 50px #111111 solid;
+}
+
+.titucamera {
+  color: rgb(159, 163, 167);
+  position: relative;
+
+  margin-top: -80%;
+  font-size: 100px;
+  width: 50%;
+}
+
+/* Detalles Camara */
+.conteiner4 {
+  margin-top: -12%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 64%,
+    rgba(0, 0, 0, 1) 96%,
+    rgb(45, 45, 45) 100%
+  );
+  color: aliceblue;
+  position: relative;
+  height: 800px;
+  z-index: 3;
+  padding-top: 35px;
+  border-bottom: 50px #111111 solid;
+}
+.i6 {
+  width: 60%;
+  margin-left: 40%;
+  z-index: 9;
+}
+.camaras {
+  margin-top: -50%;
+  height: 100%;
+  width: 30%;
+  font-size: 30px;
+  margin-left: 5%;
+  z-index: 9;
+}
+
+/* Container Ultimo */
+
+.conteiner5 {
+  background-color: black;
+  color: aliceblue;
+  position: relative;
+  z-index: 5;
+  margin-top: -2%;
+}
+.i7 {
+  width: 50%;
+}
+.ultimotext {
+  width: 80%;
+  margin-left: 10%;
+}
+.tiposdecamera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: 30%;
+}
